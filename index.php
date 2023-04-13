@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Foodie</title>
 </head>
@@ -14,7 +16,7 @@
 
     <!-- Navbar -->
 
-    <nav class="menubar">
+    <nav class="menubar sticky">
         <div class="container">
             <a class="logo" href="index.php">
                 <h2>FOODIE</h2>
@@ -157,9 +159,9 @@
             <a href="">Licence</a>
         </div>
         <div class="links">
-            <a href="" class="fa-brands fa-github">Instagram</a>
-            <a href="" class="fa-brands fa-github">Facebook</a>
-            <a href="" class="fa-brands fa-github">Twitter</a>
+            <i class="fa fa-instagram fa-2x"></i>
+            <i class="fa fa-facebook fa-2x"></i>
+            <i class="fa fa-twitter fa-2x"></i>
         </div>
     </footer>
 
