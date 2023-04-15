@@ -259,6 +259,10 @@ footer.top .links{
     gap: 30px;
 }
 
+.flogo a{
+    text-decoration: none;
+}
+
 
 footer.top .links > a{
     text-decoration: none;
@@ -396,3 +400,45 @@ footer.bottom .links > i{
   .star-rating .star.active {
     color: #F5A623;
   }
+
+
+.contactus{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+/* ------------- < --About Us -- > ---------- */
+
+.about1{
+    display: grid;
+    margin: 3rem;
+}
+
+.adetail{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 3rem;
+}
+
+.adetails1{
+    text-align: center;
+}
+
+.adetails1 img{
+    width: 10rem;
+    height: 10rem;
+}
+
+.adetails2 p,i{
+    margin-top: 0.5rem;
+}
+
+.adetails2 i{
+    font-size: 1.5rem;
+}

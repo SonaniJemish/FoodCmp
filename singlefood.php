@@ -22,10 +22,9 @@
                 <h2>FOODIE</h2>
             </a>
             <ul class="menu">
-                <li class="menuitem"><a href="singlefood.html">Food Category</a></li>
-                <li class="menuitem"><a href="food.html">Compare</a></li>
-                <li class="menuitem"><a href="food.html">About</a></li>
-                <li class="menuitem"><a href="food.html">Contact Us</a></li>
+                <li class="menuitem"><a href="menu.php">Food Category</a></li>
+                <li class="menuitem"><a href="contact.php">Contact Us</a></li>
+                <li class="menuitem"><a href="aboutus.php">About</a></li>
             </ul>
         </div>
         <div class="filterbar">
@@ -219,7 +218,7 @@
                         <div>
                             <p>Mix Sabji, Kathol Sabji, Jira Rice, Dal, 3 Butter Roti </p>
                         </div>
-                     </div>
+                    </div>
                 </div>
                 <div class="cmp">
                     <div class="cmpitem">
@@ -323,13 +322,15 @@
 
     <footer class="top">
         <div class="flogo">
-            <h1>FOODIE</h1>
+            <a href="index.php">
+                <h1>FOODIE</h1>
+            </a>
         </div>
         <div class="links">
             <h2>Menu</h2>
-            <a href="#header">Food Cetegory</a>
-            <a href="#header">Contact Us</a>
-            <a href="#header">About Us</a>
+            <a href="menu.php">Food Cetegory</a>
+            <a href="contact.php">Contact Us</a>
+            <a href="aboutus.php">About Us</a>
         </div>
     </footer>
     <footer class="bottom">
