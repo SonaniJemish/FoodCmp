@@ -75,10 +75,6 @@
 
 }
 
-.filter li{
-    /* display: inline-block; */
-}
-
 .filter a{
     text-decoration: none;
     color: rgba(235, 235, 235, 0.903);
