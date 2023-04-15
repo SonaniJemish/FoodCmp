@@ -16,19 +16,19 @@
 
     <!-- Navbar -->
 
-    <nav class="menubar sticky">
+    <nav class="menubar">
         <div class="container">
             <a class="logo" href="index.php">
                 <h2>FOODIE</h2>
             </a>
             <ul class="menu">
-                <li class="menuitem"><a href="food.html">Food Category</a></li>
+                <li class="menuitem"><a href="menu.php">Food Category</a></li>
                 <li class="menuitem"><a href="food.html">Compare</a></li>
                 <li class="menuitem"><a href="food.html">About</a></li>
                 <li class="menuitem"><a href="food.html">Contact Us</a></li>
             </ul>
         </div>
-        <div class="filterbar">
+        <!-- <div class="filterbar">
             <ul class="filter">
                 <li class="fi">
                     <select name="az" id="az">
@@ -40,7 +40,7 @@
                 <li class="fi"><input type="search" name="search" id="search" placeholder="Search Here..."></li>
                 <li class="fi"><button>Search</button></li>
             </ul>
-        </div>
+        </div> -->
     </nav>
 
     <!-- Poster -->
@@ -56,44 +56,44 @@
     <div class="content2" id="menu_it">
         <div class="category">
             <div class="c1">
-                <a href="menu/gujaratit.php"><img src="image/c1.jpg" alt=""></a>
-                <a href="menu/gujaratit.php">Gujarati Thali</a>
+                <a href="singlefood.php"><img src="image/c1.jpg" alt=""></a>
+                <a href="singlefood.php">Gujarati Thali</a>
             </div>
             <div class="c1">
-                <a href="menu/panjabit.php"><img src="image/c2.jpg" alt=""></a>
-                <a href="menu/panjabit.php">Panjabi Thali</a>
+                <a href="singlefood.php"><img src="image/c2.jpg" alt=""></a>
+                <a href="singlefood.php">Panjabi Thali</a>
             </div>
             <div class="c1">
-                <a href="menu/burgar.php"><img src="image/c3.jpg" alt=""></a>
-                <a href="menu/burgar.php">Burgar</a>
+                <a href="singlefood.php"><img src="image/c3.jpg" alt=""></a>
+                <a href="singlefood.php">Burgar</a>
             </div>
             <div class="c1">
-                <a href="menu/milkshake.php"><img src="image/c4.jpg" alt=""></a>
-                <a href="menu/milkshake.php">Milk Shake</a>
+                <a href="singlefood.php"><img src="image/c4.jpg" alt=""></a>
+                <a href="singlefood.php">Milk Shake</a>
             </div>
             <div class="c1">
-                <a href="menu/southindian.php"><img src="image/c5.jpg" alt=""></a>
-                <a href="menu/southindian.php">South Inadian</a>
+                <a href="singlefood.php"><img src="image/c5.jpg" alt=""></a>
+                <a href="singlefood.php">South Inadian</a>
             </div>
             <div class="c1">
-                <a href="menu/fastfood.php"><img src="image/c6.jpg" alt=""></a>
-                <a href="menu/fastfood.php">Fast Food</a>
+                <a href="singlefood.php"><img src="image/c6.jpg" alt=""></a>
+                <a href="singlefood.php">Fast Food</a>
             </div>
             <div class="c1">
-                <a href="menu/farsan.php"><img src="image/c7.jpg" alt=""></a>
-                <a href="menu/farsan.php">Farsan</a>
+                <a href="singlefood.php"><img src="image/c7.jpg" alt=""></a>
+                <a href="singlefood.php">Farsan</a>
             </div>
             <div class="c1">
-                <a href="menu/ice.php"><img src="image/c8.jpg" alt=""></a>
-                <a href="menu/ice.php">Ice-Cream</a>
+                <a href="singlefood.php"><img src="image/c8.jpg" alt=""></a>
+                <a href="singlefood.php">Ice-Cream</a>
             </div>
             <div class="c1">
-                <a href="menu/egg.php"><img src="image/c9.jpg" alt=""></a>
-                <a href="menu/egg.php">Egg</a>
+                <a href="singlefood.php"><img src="image/c9.jpg" alt=""></a>
+                <a href="singlefood.php">Egg</a>
             </div>
             <div class="c1">
-                <a href="menu/cake.php"><img src="image/c10.jpg" alt=""></a>
-                <a href="menu/cake.php">Cake</a>
+                <a href="singlefood.php"><img src="image/c10.jpg" alt=""></a>
+                <a href="singlefood.php">Cake</a>
             </div>
         </div>
     </div>

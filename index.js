@@ -1,6 +1,13 @@
-function clicked(){
-    var btn = document.getElementById('mbtn');
-    // btn.classList.toggle('show');
-    console.log(btn);
-    btn.classList.toggle("show");
-}
+const stars = document.querySelectorAll('.star');
+
+stars.forEach((star, index) => {
+  star.addEventListener('click', () => {
+    stars.forEach((s, i) => {
+      if (i <= index) {
+        s.classList.add('active');
+      } else {
+        s.classList.remove('active');
+      }
+    });
+  });
+});
