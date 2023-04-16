@@ -75,10 +75,6 @@
 
 }
 
-.filter li{
-    /* display: inline-block; */
-}
-
 .filter a{
     text-decoration: none;
     color: rgba(235, 235, 235, 0.903);
@@ -148,14 +144,14 @@
 
 .c1{    
     display: grid;
-
 }
+
 
 .c1 img{
     justify-self: center;
     height: 8rem;
     width: 8rem;
-    box-shadow: 4px 10px 10px rgb(0, 0, 0);
+    box-shadow: 4px 8px 10px rgb(0, 0, 0);
     border-radius: 50%;
 }
 
@@ -220,11 +216,8 @@
     width: 40rem;
 }
 
-.content2 > h1{
-    padding-top: 3rem;
-    text-align: center;
-    color: black;
-}
+
+
 
 
 .about{
@@ -266,6 +259,10 @@ footer.top .links{
     gap: 30px;
 }
 
+.flogo a{
+    text-decoration: none;
+}
+
 
 footer.top .links > a{
     text-decoration: none;
@@ -304,15 +301,149 @@ footer .legal > span{
     margin-right: 10px;
 }
 
-footer.bootom .links{
-    display: flex;
-    gap: 18px;
-}
-
-footer.bottom .links > a{
+footer.bottom .links > i{
     font-size: 24px;
     text-decoration: none;
     color: whitesmoke;
     padding:0 1rem;
 }
 
+
+
+
+
+/* ---------Single Food--------- */
+.category2{
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3  ,1fr);
+    gap: 3rem;
+
+}
+
+
+.d2{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+}
+
+
+.content2 > h1{
+    padding-top: 3rem;
+    text-align: center;
+    color: black;
+}
+
+.fcontent{
+    padding-left: 0.5rem;
+}
+
+
+.c2 img{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 5px;
+}
+
+.c2 p{
+    padding-top: 0.5rem;
+    color: #4d4d4d;
+}
+
+.cmp{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 0.5rem;
+}
+
+.cmpitem{
+    text-align: center;
+}
+
+.cmpitem h4{
+    padding-top: 0.3rem;
+}
+
+.order{
+    margin-top: 0.3rem;
+    padding: 0.3rem;
+    background-color: #f5a623;
+    border:#f5a623 1px solid;
+    border-radius: 10px;
+    width: 80%;  
+}
+
+.order a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* Star Rating */
+
+.star {
+    font-size: 15px;
+    padding: 0;
+    color: #8b8b8b;
+  }
+  
+  .star-rating {
+    width: 100%;
+    margin-top: 0.3rem;
+  }
+  
+  .star-rating .star {
+    display: inline-block;
+  }
+  
+  .star-rating .star.active {
+    color: #F5A623;
+  }
+
+
+.contactus{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+/* ------------- < --About Us -- > ---------- */
+
+.about1{
+    display: grid;
+    margin: 3rem;
+}
+
+.adetail{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 3rem;
+}
+
+.adetails1{
+    text-align: center;
+}
+
+.adetails1 img{
+    width: 10rem;
+    height: 10rem;
+}
+
+.adetails2 p,i{
+    margin-top: 0.5rem;
+}
+
+.adetails2 i{
+    font-size: 1.5rem;
+}
+
+
+.fi input[type=search],button:focus{
+    outline: none;
+}
