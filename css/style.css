@@ -442,3 +442,8 @@ footer.bottom .links > i{
 .adetails2 i{
     font-size: 1.5rem;
 }
+
+
+.fi input[type=search],button:focus{
+    outline: none;
+}
